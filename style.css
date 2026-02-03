@@ -1,0 +1,77 @@
+/* Grundlayout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #005a9c;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin-top: .5rem;
+    font-size: 1.1rem;
+}
+
+/* Team Überschrift */
+.team {
+    padding: 2rem 0;
+}
+
+.team h2 {
+    border-bottom: 2px solid #005a9c;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+/* Karten */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    flex: 1 1 calc(30% - 1rem);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #005a9c;
+    font-size: 1.4rem;
+}
+
+.card p {
+    margin: .4rem 0;
+}
+
+/* Footer */
+footer {
+    padding: 1.5rem 0;
+    background: #333;
+    color: white;
+    text-align: center;
+    font-size: .9rem;
+}
